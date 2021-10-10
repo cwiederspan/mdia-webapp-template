@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug SWA .NET APIs",
+      "type": "coreclr",
+      "request": "attach",
+      "processId": "${command:azureFunctions.pickProcess}" //,
+      //"preLaunchTask": "swa start"
+    }
+  ] /*,
+  "compounds": [
+    {
+        "name": "Debug Static Web App",
+        "configurations": [
+            "Attach to .NET Functions",
+            "Launch Edge"
+        ],
+        "stopAll": true
+    }
+  ]*/
+}

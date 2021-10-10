@@ -262,21 +262,3 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-
-# Azurite
-coverage
-azurite-testdrive
-.nyc_output
-dist
-typings
-debug.log
-*.vsix
-*.tgz
-__*
-*.env
-temp
-**/.DS_Store.DS_Store
-*.pem
-azurite.exe
-.pkg-cache
-release
